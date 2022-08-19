@@ -17,7 +17,7 @@ public class Main {
 
 
         System.out.println("***********************************");
-        System.out.println("***********************************");
+        System.out.println("*********************************** ");
 
         FootballPlayer joe = new FootballPlayer("joe");
         BaseballPlayer pat = new BaseballPlayer("Pat");
