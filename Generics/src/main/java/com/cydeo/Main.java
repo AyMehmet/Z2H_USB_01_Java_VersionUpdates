@@ -12,6 +12,18 @@ public class Main {
         items.add(3);
         items.add(4);
         items.add("memo");
+        
+        printDoubled(items);
 
     }
+
+    private static void printDoubled(ArrayList items) {
+
+        for (Object i: items ) {
+            System.out.println((Integer)i*2);
+            
+        }
+    }
+
+
 }
