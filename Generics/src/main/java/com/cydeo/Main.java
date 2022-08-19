@@ -6,20 +6,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ArrayList items=new ArrayList();
+        ArrayList<Integer> items=new ArrayList<Integer>();
         items.add(1);
         items.add(2);
         items.add(3);
         items.add(4);
-        items.add("memo");
+        //items.add("memo");
         
         printDoubled(items);
 
     }
 
-    private static void printDoubled(ArrayList items) {
+    private static void printDoubled(ArrayList<Integer> items) {
 
-        for (Object i: items ) {
+        for (Integer i: items ) {
             System.out.println((Integer)i*2);
             
         }
