@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Enum" />
-        <module name="Generics" />
         <module name="lambda" />
+        <module name="DoubleColonOperator" />
+        <module name="Generics" />
       </profile>
     </annotationProcessing>
   </component>
