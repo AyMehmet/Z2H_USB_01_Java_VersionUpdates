@@ -9,9 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Enum" />
         <module name="lambda" />
+        <module name="stream" />
+        <module name="Optional_BigDecimal" />
         <module name="DoubleColonOperator" />
         <module name="Generics" />
+        <module name="Comparator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lStream" target="11" />
+      <module name="Stream" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
