@@ -18,6 +18,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lStream" target="11" />
+      <module name="pNew_Versions_Update" target="11" />
       <module name="Stream" target="11" />
     </bytecodeTargetLevel>
   </component>
